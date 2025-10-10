@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Welcome to My HTTP Server</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 2em; }
+        h1 { color: #333; }
+        nav a { margin-right: 1em; text-decoration: none; color: #007BFF; }
+        .download-section { margin-top: 2em; }
+    </style>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <p>This page is served by a custom multi-threaded Python HTTP server.</p>
+    
+    <nav>
+        <a href="/about.html">About Page</a>
+        <a href="/contact.html">Contact Page</a>
+    </nav>
+
+    <div class="download-section">
+        <h2>Downloadable Files</h2>
+        <ul>
+            <li><a href="/logo.png" download>Download logo.png</a></li>
+            <li><a href="/photo.jpg" download>Download photo.jpg</a></li>
+            <li><a href="/photo_large.jpg" download>Download photo_large.jpg (>1MB)</a></li>
+            <li><a href="/sample.txt" download>Download sample.txt</a></li>
+        </ul>
+    </div>
+</body>
+</html>
